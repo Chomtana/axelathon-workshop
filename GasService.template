@@ -1,0 +1,9 @@
+if (msg.value > 0) {
+    gasService.payNativeGasForContractCall{value: msg.value}(
+        address(this),
+        destinationChain,
+        destinationAddress,
+        payload,
+        msg.sender
+    );
+}
