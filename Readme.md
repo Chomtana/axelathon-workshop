@@ -1,5 +1,9 @@
 # Axelathon Workshop
 
+## Axelar Sandbox
+
+https://xchainbox.axelar.dev/
+
 ## Add chain to metamask
 
 Go to Chainlist
@@ -15,7 +19,11 @@ Add corresponding testnet to your metamask
 ## Faucet
 
 * Fantom testnet: https://faucet.fantom.network/
-* Avalanche testnet: https://core.app/tools/testnet-faucet/?subnet=c&token=c
+* Avalanche testnet: https://core.app/tools/testnet-faucet/?subnet=c&token=
+
+## Remix IDE
+
+https://remix.ethereum.org/
 
 ## Axelarscan
 
