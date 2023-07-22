@@ -12,14 +12,14 @@ https://chainlist.org/
 
 Check "Include Testnets"
 
-Then search for "Fantom" and "Avalanche"
+Then search for "Fantom testnet" and "Polygon mumbai"
 
 Add corresponding testnet to your metamask
 
 ## Faucet
 
 * Fantom testnet: https://faucet.fantom.network/
-* Avalanche testnet: https://core.app/tools/testnet-faucet/?subnet=c&token=
+* Polygon mumbai: https://faucet.polygon.technology/
 
 ## Remix IDE
 
