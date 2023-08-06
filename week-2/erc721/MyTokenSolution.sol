@@ -45,6 +45,10 @@ contract ChomToken is ERC721, ERC721Burnable, Ownable, AxelarExecutable {
         // TODO: Fetch destinationAddress from destinationChain
         string memory destinationAddress = destinationAddressMapping[keccak256(abi.encode(destinationChain))];
 
+        if (bytes(destinationAddress).length == 0) {
+            revert("Destination zero");
+        }
+
         // TODO: Lock (Burn) token in the source chain
         _burn(tokenId);
 
